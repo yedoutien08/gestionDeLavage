@@ -21,8 +21,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     // recuperer un user par le nom
 
-    //
-    Optional<User> findByUsername (String username);
 
     // Créer un nouveau user
     User save(User user);

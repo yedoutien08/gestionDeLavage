@@ -21,11 +21,11 @@ public class User implements Serializable {
     @Column(name ="id", nullable = false )
     private Long id;
 
-    @Column(name = "FULLNAME" , nullable = false)
-    private String fullname;
+    @Column(name = "NOM")
+    private String nom;
 
-    @Column(name = "USERNAME")
-    private String username;
+    @Column(name = "PRENOM")
+    private String prenom;
 
     @Column(name = "ADDRESS" )
     private String address;
